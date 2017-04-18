@@ -7,7 +7,7 @@ Application is developed using:
 
 ## Steps to run application
 
-after clonning repo, cd into coins folder then run:
+after clonning repo, cd into project folder then run:
 
 ```
 npm install
