@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Coins Calculator</title>
+    <meta name="author" content="Nikhil Kumar" />
+</head>
+<body>
+<div class="container">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+  <h3>Coins Calculator</h3><br>
+    <form [formGroup]="currencyForm">
+        <div class="form-group">
+          <input type="text" #currencyAmount class="form-control" formControlName="currency" (keyup.enter)='calculate(currencyAmount.value)'
+          placeholder="Please enter amount..."> <small>Hit enter/return to get result</small>
+          <div *ngIf="currencyForm.controls['currency'].hasError('required')" class="alert alert-danger">Please enter amount to caluculate</div>
+          <div *ngIf="!currencyForm.valid" class="alert alert-danger">Please enter valid currency</div>
+        </div>
+    </form>
+    <div>
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor ="let coin of getCoinsList; let seq=index"><b>{{outputCoins[seq]}} x</b> <span class="badge">{{coin}}</span></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4"></div>
+</body>
+</html>
