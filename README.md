@@ -43,3 +43,7 @@ This command will show the coverage report in the browser.
 3- npm run coverage
 ```
 
+### Demo
+![demo](https://cloud.githubusercontent.com/assets/10805658/25127022/e4cd71dc-2451-11e7-8b73-cbe75efa889f.gif)
+
+
