@@ -1,6 +1,7 @@
-# coinsCalculator
+# coinsCalculator : Built with AngularJs 2
 Calculating the minimum number of Sterling coins needed to make that amount.
-Application is developed using:
+
+### Application is developed using:
 
 1- AngularJs 2 with TypeScript. <br>
 2- Karma and Jamine for testing
