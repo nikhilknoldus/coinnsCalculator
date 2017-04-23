@@ -8,6 +8,7 @@ import {FormGroup, FormControl, Validators, FormBuilder} from "@angular/forms";
   styleUrls: ['app.style.css']
 })
 
+//Creating component
 export class AppComponent implements  OnInit {
   constructor(private _formbuilder: FormBuilder){}
 
