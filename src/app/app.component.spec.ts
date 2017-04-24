@@ -31,4 +31,6 @@ describe('AppComponent should', function () {
     expect(result).toEqual([0,0,0,0,1,1,0])
   } );
 
+ //afterAll(() => setTimeout(() => 0, 1000))
+
 });
