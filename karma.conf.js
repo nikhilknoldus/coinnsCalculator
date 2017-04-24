@@ -108,9 +108,9 @@ module.exports = function(config) {
 
     port: 9876,
     colors: true,
+    singleRun: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: false
+    autoWatch: false,
+    browsers: ['Chrome']
   })
 }
