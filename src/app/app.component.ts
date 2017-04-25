@@ -33,8 +33,6 @@ export class AppComponent implements  OnInit {
     if (this.currencyForm.valid) {
       amount = amount.replace(/[^\d.-]/g, '');
       amount = parseFloat(amount).toFixed(2);
-
-      console.log(amount);
       if (amount.indexOf("£") > -1 || amount.indexOf(".") > -1) {
         amount = (amount * 100).toFixed(0);
       } else {
