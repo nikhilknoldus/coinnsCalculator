@@ -48,4 +48,4 @@ This command will show the coverage report in the browser.
 
 
 ### Live Demo
-Demo Url: http://35.163.69.141:3000/
+Demo Url: http://52.35.202.230:3000/
